@@ -1,0 +1,24 @@
+задание: 2.1.1
+проект: 211-command-usb
+устройство: 2e8a:000a
+серийный номер: 5303284740E0551C
+порт: COM5
+начало: 2026-11-09T20:33:46
+   0.000 --> enable
+   0.131 <-- enable
+   0.131 <-- inf handle_command:24 led on
+   2.170 --> disable
+   2.311 <-- disable
+   2.312 <-- inf handle_command:28 led off
+   4.349 --> info
+   4.432 <-- info
+   4.432 <-- project: 211-command-usb
+   4.433 <-- repo: https://github.com/klimastrodynamics/es-student
+   4.433 <-- board: pico
+   4.433 <-- serial: 5303284740E0551C
+   4.434 <-- chip: manufacturer 0x927, part 0x0002, revision 2
+   4.434 <-- pico-sdk: 2.3.0
+   6.471 --> nosuchcommand
+   6.733 <-- nosuchcommand
+   6.734 <-- err handle_command:37 unknown command: nosuchcommand
+итог: отправлено команд 4, принято строк 13

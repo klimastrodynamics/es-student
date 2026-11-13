@@ -63,7 +63,6 @@ void handle_command(const char *command) {
             if (commands[i].handler != NULL) {
                 commands[i].handler();
             }
-
             return;
         }
     }
